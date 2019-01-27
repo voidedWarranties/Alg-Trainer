@@ -16,13 +16,13 @@ this.Algorithm = class Algorithm {
 
   getImageTD() {
     var s = this.alg.replace(/\s+/g, ''),
-    url = "http://cube.crider.co.uk/visualcube.png?size=150&view=plan&alg=" + s + "&arw=" + this.arrows;
+    url = "http://cube.crider.co.uk/visualcube.png?size=150&view=plan&bg=black&alg=" + s + "&arw=" + this.arrows;
     return url;
   }
 
   getImageTransparent() {
     var s = this.alg.replace(/\s+/g, ''),
-    url = "http://cube.crider.co.uk/visualcube.png?size=150&co=12&fo=50&alg=" + s + "&arw=" + this.arrows;
+    url = "http://cube.crider.co.uk/visualcube.png?size=150&co=12&fo=50&bg=black&alg=" + s + "&arw=" + this.arrows;
     return url;
   }
 }
