@@ -1,0 +1,5 @@
+{
+  "sets": [
+    {"name": "SET1", "algs": [{"alg": "y2 R U' R U R U R U' R' U' R2", "arrows": "U5U7,U7U3,U3U5"}]}
+  ]
+}
