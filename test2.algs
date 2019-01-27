@@ -1,5 +1,5 @@
 {
   "sets": [
-    {"name": "SET1", "algs": [{"alg": "y2 R U' R U R U R U' R' U' R2", "arrows": "U5U7,U7U3,U3U5"}]}
+    {"name": "SET1", "algs": [{"name": "U-Perm", "alg": "y2 R U' R U R U R U' R' U' R2", "arrows": "U5U7,U7U3,U3U5"}, {"name": "Test", "alg": "y2 R U' R U R U R U' R' U' R2", "arrows": "U5U9,U7U3,U3U5"}]}
   ]
 }
